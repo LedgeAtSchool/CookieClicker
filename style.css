@@ -1,0 +1,37 @@
+body
+{
+    text-align: center;
+    background-color: tan;
+}
+#cookie
+{
+    padding: 5%;
+    background-color: transparent;
+    border: 0px;
+}
+#cookimg
+{
+    width: 30%;
+    height: 30%;
+    cursor: pointer;
+}
+#upgrades
+{
+    list-style: none;
+    float: right;
+    right: 10px;
+    position: fixed;
+}
+.upgrade
+{
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: brown;
+    color: white;
+}
+.upgrade:hover
+{
+    background-color: blue;
+}

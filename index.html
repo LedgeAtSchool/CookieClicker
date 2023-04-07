@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+      <script src="main.js"></script>
+          <title>Cookie Clicker</title>
+  </head>
+  <body>
+      <ul id="upgrades">
+          <li class="upgrade" onclick="stomspaceup()">Upgrade stomach</li>
+          <li class="upgrade" onclick="bigcookie()">Upgrade cookie</li>
+          <li class="upgrade" onclick="sell()">Sell</li>
+          <li class="upgrade"><a href="#tut">Tutorial</a></li>
+      </ul><br><br><br>
+      <audio id="bite" src="bite.mp3"></audio>
+      <h1>Cookie Clicker</h1>
+      
+      <h2>$:</h2><span><h2 id="mon">0</h2>
+      <h2>Cookies Eaten:</h2><span><h2 id="sc">0</h2><div><h2>Stomach space:</h2><span><h2 id="stom">0</h2>
+          
+      <button id="cookie" onclick="eat()">
+      <img id="cookimg" src="cookie.png">
+      </button>
+      <br><br><br><section id="tut">
+      <h1 id="td">Tutorial</h1>
+      <iframe width="400" height="229" src="tutorial.mp4"></section>
+  </body>
+</html>
